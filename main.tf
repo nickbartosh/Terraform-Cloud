@@ -19,7 +19,7 @@ provider "solidserver" {
 }
 
 resource "solidserver_ip_space" "space_acmecorp" {
-  name       = "AcmeCorp"
+  name       = "RockBottomWhiskey"
 }
 
 resource "solidserver_ip_space" "CorpOne" {
