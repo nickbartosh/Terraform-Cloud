@@ -10,3 +10,10 @@ terraform {
     }
   }
 }
+
+provider "solidserver" {
+  username  = "ipmadmin"
+  password  = "admin"
+  host      = "3.123.22.95"
+  sslverify = false
+}
